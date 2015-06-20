@@ -13,6 +13,8 @@
 		29A34B651B35466600235350 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29A34B641B35466600235350 /* Images.xcassets */; };
 		29A34B681B35466600235350 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29A34B661B35466600235350 /* LaunchScreen.xib */; };
 		29A34B741B35466600235350 /* ChatSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A34B731B35466600235350 /* ChatSampleTests.swift */; };
+		29A34B7F1B35B62600235350 /* user1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29A34B7E1B35B62500235350 /* user1.jpg */; };
+		29A34B811B35B62D00235350 /* user2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 29A34B801B35B62D00235350 /* user2.jpeg */; };
 		9DC28E835FB3D2987D0F5B83 /* libPods-ChatSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EA7AC26732C4D64D0B7560D /* libPods-ChatSample.a */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +40,8 @@
 		29A34B721B35466600235350 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29A34B731B35466600235350 /* ChatSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatSampleTests.swift; sourceTree = "<group>"; };
 		29A34B7D1B35488300235350 /* ChatSample-bridging-header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChatSample-bridging-header.h"; sourceTree = "<group>"; };
+		29A34B7E1B35B62500235350 /* user1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = user1.jpg; sourceTree = "<group>"; };
+		29A34B801B35B62D00235350 /* user2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = user2.jpeg; sourceTree = "<group>"; };
 		8EA7AC26732C4D64D0B7560D /* libPods-ChatSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChatSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5EC955BFBF6B6E220364DA9 /* Pods-ChatSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChatSample/Pods-ChatSample.debug.xcconfig"; sourceTree = "<group>"; };
 		BD4A0F4C02DDAAA2F76D1A6C /* Pods-ChatSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChatSample/Pods-ChatSample.release.xcconfig"; sourceTree = "<group>"; };
@@ -90,6 +94,8 @@
 				29A34B611B35466600235350 /* Main.storyboard */,
 				29A34B641B35466600235350 /* Images.xcassets */,
 				29A34B661B35466600235350 /* LaunchScreen.xib */,
+				29A34B7E1B35B62500235350 /* user1.jpg */,
+				29A34B801B35B62D00235350 /* user2.jpeg */,
 				29A34B5B1B35466600235350 /* Supporting Files */,
 			);
 			path = ChatSample;
@@ -220,6 +226,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29A34B811B35B62D00235350 /* user2.jpeg in Resources */,
+				29A34B7F1B35B62600235350 /* user1.jpg in Resources */,
 				29A34B631B35466600235350 /* Main.storyboard in Resources */,
 				29A34B681B35466600235350 /* LaunchScreen.xib in Resources */,
 				29A34B651B35466600235350 /* Images.xcassets in Resources */,

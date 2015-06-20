@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Chat View Controller-->
@@ -16,56 +15,8 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uuv-3E-p11">
-                                <rect key="frame" x="24" y="28" width="552" height="504"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="215" id="3T0-qL-yeJ"/>
-                                </constraints>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="3T0-qL-yeJ"/>
-                                    </mask>
-                                </variation>
-                            </textView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Rwm-Zk-rZ9">
-                                <rect key="frame" x="0.0" y="570" width="600" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Guest1010101010" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aKg-gX-LHu">
-                                <rect key="frame" x="8" y="540" width="168" height="20"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="168" id="qvv-Bb-v6f"/>
-                                    <constraint firstAttribute="height" constant="20" id="wro-YJ-Fca"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="uuv-3E-p11" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="8" id="75j-l4-DTc"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="uuv-3E-p11" secondAttribute="trailing" constant="8" id="J8Q-1Z-tVq"/>
-                            <constraint firstItem="uuv-3E-p11" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" id="Ksf-LA-ACd"/>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Rwm-Zk-rZ9" secondAttribute="bottom" id="LnI-Uj-hSr"/>
-                            <constraint firstItem="aKg-gX-LHu" firstAttribute="top" secondItem="uuv-3E-p11" secondAttribute="bottom" constant="8" id="OJ6-E3-sMx"/>
-                            <constraint firstItem="Rwm-Zk-rZ9" firstAttribute="top" secondItem="aKg-gX-LHu" secondAttribute="bottom" constant="10" id="PLA-h4-Fxy"/>
-                            <constraint firstItem="Rwm-Zk-rZ9" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="ZSz-dZ-Zjn"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Rwm-Zk-rZ9" secondAttribute="trailing" constant="-16" id="hgf-lu-Lfw"/>
-                            <constraint firstItem="aKg-gX-LHu" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-8" id="vqi-Uh-jtV"/>
-                        </constraints>
                     </view>
-                    <connections>
-                        <outlet property="inputField" destination="Rwm-Zk-rZ9" id="puN-9C-gOY"/>
-                        <outlet property="nameLabel" destination="aKg-gX-LHu" id="89Y-Q7-WjZ"/>
-                        <outlet property="textView" destination="uuv-3E-p11" id="efr-y4-Vr0"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>

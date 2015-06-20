@@ -12,6 +12,7 @@
 #ifdef __OBJC__
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
-#import <Firebase/Firebase.h>
+#import <Firebase/Firebase.h>
+#import <JSQMessagesViewController/JSQMessages.h>
 #endif
 #endif

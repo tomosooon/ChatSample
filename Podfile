@@ -3,6 +3,7 @@
 
 target 'ChatSample' do
 pod 'Firebase', '>= 2.3.1'
+pod 'JSQMessagesViewController'
 end
 
 target 'ChatSampleTests' do
